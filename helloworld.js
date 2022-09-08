@@ -9,7 +9,7 @@ http.createServer(function (request, response) {
 
    // Send the response body as "Los Angeles Rams are Super Bowl LVI Champs!"
    response.end('Los Angeles Rams are Super Bowl LVI Champs!\n')
-}).listen(3000)
+}).listen(3333)
 
 // Console will print the message
 console.log('Server running')
