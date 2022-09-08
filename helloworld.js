@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as "Hello World"
-   response.end('a new message\n')
+   response.end('Los Angeles Rams are Super Bowl LVI Champs!\n')
 }).listen(3333)
 
 // Console will print the message
